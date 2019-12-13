@@ -18,3 +18,4 @@ class CharacterModel{
         self.name = dto.name
     }
 }
+ 
