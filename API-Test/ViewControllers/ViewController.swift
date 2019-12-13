@@ -9,12 +9,18 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    //reference to view model
+    let viewModel = ViewModel()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        fetchData()
     }
-
+    
+    func fetchData(){
+        viewModel.fetchData()
+    }
 
 }
 
